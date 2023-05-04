@@ -2,13 +2,9 @@ public class Main {
 //FUNZIONI
   public static boolean stringaPariDispari(String str) {
     int length = str.length();
-    if (length % 2 == 0) {
-      return true;
-    } else {
-      return false;
+    return length % 2 == 0;
     }
-  }
-
+    
   public static boolean annoBisestile(int anno) {
     if (anno % 4 == 0) {
       if (anno % 100 == 0) {

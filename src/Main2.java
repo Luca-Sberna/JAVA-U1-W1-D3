@@ -4,7 +4,7 @@ public class Main2 {
 
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    System.out.print("Inserisci un intero compreso tra 0 e 3: ");
+    System.out.print("Inserisci un numero: ");
     int num = input.nextInt();
     input.close();
 
