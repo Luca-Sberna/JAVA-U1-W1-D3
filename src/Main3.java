@@ -6,6 +6,7 @@ public class Main3 {
     Scanner input = new Scanner(System.in);
     String str;
 
+    //UTILIZZO UN CICLO DO-WHILE PER RIPETERE FINO A CHE L'UTENTE NON INSERISCA :q
     do {
       System.out.print("Inserisci una stringa (digita ':q' per uscire): ");
       str = input.nextLine();
